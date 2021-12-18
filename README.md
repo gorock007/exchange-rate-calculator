@@ -1,1 +1,2 @@
-Exchange Rate Calcualte 
+Exchange Rate Calculator
+
