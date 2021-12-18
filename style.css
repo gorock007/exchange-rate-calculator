@@ -1,0 +1,92 @@
+
+.exchangeBox{
+    width: 420px;
+    margin: 0px;
+
+    box-shadow: 0 4px 8px 0 rgb(5, 145, 238), 0 6px 20px 0 rgba(45, 112, 238, 0.19);
+    border-radius: 20px;
+    height: 500px;
+    margin-top: 12vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #000000;  
+  }
+  
+  .currency{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+  }
+  
+  .currency label{
+    color:rgb(18, 0, 59);
+    font-size: 20px;
+  }
+  
+  .currency select{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    color: #0e3114;
+    height: 32px;
+    width: auto;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .currency input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e6e6e6;
+    color: rgb(18, 0, 59);
+    outline: none;
+    border: none;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    padding:2px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 4px;
+    
+  }
+  .currency select option{
+    /* background-color: #6C63FF; */
+    font-size: 1rem;
+    color: rgb(20, 41, 26);   
+  }
+  .result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  button#exchange  {
+    border: none;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+  
+  button#exchange:hover{
+    color: #6C63FF;
+    background-color: #F1F0FF;
+    border: none;
+    border-radius: 50%;
+  }
+  
+  .rate{
+    color: rgb(18, 0, 59);;    
+    width: 500px;
+    height: 25px;
+    border-radius: 15px   ;
+    border-radius: 35px;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  select:focus, input:focus, button:focus {
+      outline: 0;
+  }
+  
